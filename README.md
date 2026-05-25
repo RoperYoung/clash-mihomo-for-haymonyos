@@ -16,7 +16,7 @@
 ## 核心特性
 
 - 适配 HarmonyOS 6.0 及以上版本的 APK 安装与运行场景。
-- 支持通过卓易通（Zotong）安装到鸿蒙设备。
+- 支持通过卓易通安装到鸿蒙设备。
 - 内置 Clash 的 mihomo 内核，提供规则代理、订阅配置、DNS、TUN/VPN 等常见能力。
 - APK 已签名，可直接下载安装。
 - 包含多架构原生库，覆盖 `arm64-v8a`、`armeabi-v7a`、`x86` 和 `x86_64`。
@@ -33,7 +33,7 @@
 ## HarmonyOS 安装方式
 
 1. 在 [GitHub Releases](https://github.com/RoperYoung/mihomo-clash-for-harmonyos/releases) 下载最新版 APK。
-2. 打开卓易通（Zotong），并选择安装本地 APK。
+2. 打开卓易通，并选择安装本地 APK。
 3. 按提示完成安装。
 4. 首次启动时，根据系统提示授予 VPN、通知、网络访问等必要权限。
 5. 导入你的 mihomo/Clash 订阅或本地配置文件后启用代理。
