@@ -1,6 +1,8 @@
 # Mihomo Harmony APK
 
-面向 HarmonyOS 6.0 及以上设备的 Clash Meta for Android APK 发布项目，内置 Clash 的 mihomo 内核，适合需要在鸿蒙系统环境中使用 mihomo 代理能力的用户。
+面向 HarmonyOS 6.0 及以上设备的 Clash Meta for Android 改包名 APK 发布项目，内置 Clash 的 mihomo 内核，适合需要在鸿蒙系统环境中使用 mihomo 代理能力的用户。
+
+本项目基于 [MetaCubeX/ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid/releases) 的发布版本进行包名调整。由于原项目 APK 在部分 HarmonyOS 设备上通过卓易通（Zotong）安装时会遇到无法安装或包名受限的问题，本项目提供改包名后的可安装版本。
 
 > 当前仓库用于发布 APK、安装说明和校验信息。APK 建议挂载到 GitHub Releases，避免把大体积二进制文件直接提交进 Git 历史。
 
@@ -11,24 +13,20 @@
 - 内置 Clash 的 mihomo 内核，提供规则代理、订阅配置、DNS、TUN/VPN 等常见能力。
 - APK 已签名，可直接下载安装。
 - 包含多架构原生库，覆盖 `arm64-v8a`、`armeabi-v7a`、`x86` 和 `x86_64`。
+- 跟随上游 ClashMetaForAndroid 版本持续更新。
+
+## 来源与改包名说明
+
+上游项目：[MetaCubeX/ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid/releases)
+
+本项目不是 ClashMetaForAndroid 的官方上游仓库，而是面向 HarmonyOS + 卓易通安装场景的改包名发布版本。核心能力来自 Clash Meta for Android 与 Clash 的 mihomo 内核；本项目主要解决原包名在卓易通环境下无法安装或被限制的问题。
+
+如果后续当前包名再次被系统、安装器或相关环境限制/ban，导致无法通过卓易通安装、更新或正常启动，请在 Issues 中反馈。提交 Issue 时建议附上设备型号、HarmonyOS 版本、卓易通版本、错误提示或截图，我会根据反馈继续更新包名并发布新版 APK。
 
 ## 下载
 
 请前往本项目的 GitHub Releases 页面下载最新版 APK：
 
-- 文件名：`clash-meta-neohub-mate-zhuoyitong.apk`
-- 当前版本：`2.11.27.Meta`
-- 包名：`com.neohub.clash.mate`
-- 文件大小：约 `75 MB`
-- SHA-256：`64407f0415d30a9e7c6e072032581ec60843655c22fca4fd8f32eda2e25612a0`
-
-下载后可使用下面的命令校验文件完整性：
-
-```bash
-shasum -a 256 clash-meta-neohub-mate-zhuoyitong.apk
-```
-
-输出应与上方 SHA-256 值一致。
 
 ## HarmonyOS 安装方式
 
