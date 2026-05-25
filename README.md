@@ -2,7 +2,7 @@
 
 面向 HarmonyOS 6.0 及以上设备的 Clash Meta for Android 改包名 APK 发布项目，内置 Clash 的 mihomo 内核，适合需要在鸿蒙系统环境中使用 mihomo 代理能力的用户。
 
-本项目基于 [MetaCubeX/ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid/releases) 的发布版本进行包名调整。由于原项目 APK 在部分 HarmonyOS 设备上通过卓易通（Zotong）安装时会遇到无法安装或包名受限的问题，本项目提供改包名后的可安装版本。
+本项目基于 [MetaCubeX/ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid/releases) 的发布版本进行包名调整。由于原项目 APK 在部分 HarmonyOS 设备上通过卓易通安装时会遇到无法安装或包名受限的问题，本项目提供改包名后的可安装版本。
 
 > 当前仓库用于发布 APK、安装说明和校验信息。APK 建议挂载到 GitHub Releases，避免把大体积二进制文件直接提交进 Git 历史。
 
