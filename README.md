@@ -1,10 +1,18 @@
-# Clash Mihomo for HarmonyOS
+# Mihomo Harmony APK
 
 面向 HarmonyOS 6.0 及以上设备的 Clash Meta for Android 改包名 APK 发布项目，内置 Clash 的 mihomo 内核，适合需要在鸿蒙系统环境中使用 mihomo 代理能力的用户。
 
 本项目基于 [MetaCubeX/ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid/releases) 的发布版本进行包名调整。由于原项目 APK 在部分 HarmonyOS 设备上通过卓易通（Zotong）安装时会遇到无法安装或包名受限的问题，本项目提供改包名后的可安装版本。
 
 > 当前仓库用于发布 APK、安装说明和校验信息。APK 建议挂载到 GitHub Releases，避免把大体积二进制文件直接提交进 Git 历史。
+
+## 下载
+
+请前往本项目的 [GitHub Releases](https://github.com/RoperYoung/mihomo-clash-for-harmonyos/releases) 页面下载最新版 APK：
+
+- 下载最新的 APK 文件。
+- 如 Release 附带 `SHA256SUMS`，可用于校验下载文件完整性。
+- 每个版本的具体文件名、版本号和校验值以对应 Release 页面为准。
 
 ## 核心特性
 
@@ -23,14 +31,9 @@
 
 如果后续当前包名再次被系统、安装器或相关环境限制/ban，导致无法通过卓易通安装、更新或正常启动，请在 Issues 中反馈。提交 Issue 时建议附上设备型号、HarmonyOS 版本、卓易通版本、错误提示或截图，我会根据反馈继续更新包名并发布新版 APK。
 
-## 下载
-
-请前往本项目的 GitHub Releases 页面下载最新版 APK：
-
-
 ## HarmonyOS 安装方式
 
-1. 在 GitHub Releases 下载 `clash-meta-neohub-mate-zhuoyitong.apk`。
+1. 在 [GitHub Releases](https://github.com/RoperYoung/mihomo-clash-for-harmonyos/releases) 下载最新版 APK。
 2. 打开卓易通（Zotong），并选择安装本地 APK。
 3. 按提示完成安装。
 4. 首次启动时，根据系统提示授予 VPN、通知、网络访问等必要权限。
