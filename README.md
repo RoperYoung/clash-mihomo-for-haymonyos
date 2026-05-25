@@ -1,4 +1,4 @@
-# Clash Mihomo Harmony APK
+# 鸿蒙版 Clash Mihomo Harmony APK
 
 面向 HarmonyOS 6.0 及以上设备的 Clash Meta for Android 改包名 APK 发布项目，内置 Clash 的 mihomo 内核，适合需要在鸿蒙系统环境中使用 mihomo 代理能力的用户。
 
